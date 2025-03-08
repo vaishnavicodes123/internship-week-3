@@ -1,0 +1,87 @@
+/* auth.css - Updated for better responsiveness and unique theme */
+
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ffcc00;
+}
+
+.form-control {
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid #ffcc00;
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+}
+
+.btn-custom {
+    width: 100%;
+    padding: 10px;
+    background: #ffcc00;
+    border: none;
+    color: #222;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background: #e6b800;
+}
+
+.link {
+    color: #ffcc00;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+}
+.lnk {
+    color: white !important;
+    text-decoration: none;
+  }
+  
+  .lnk:hover {
+    text-decoration: underline;
+  }
+  .btnStyle {
+    background-color: #61dafb !important;
+    border: none !important;
+    color: white !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .btnStyle:hover {
+    background-color: #4fa3d1 !important; /* Slightly darker shade for hover effect */
+  }
